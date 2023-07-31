@@ -1,7 +1,18 @@
+// ------------------TYPESCRIPT-----------------
+// showcasing some TypeScript skills but commenting out for runtime purposes
+// TypeScript showcases first then javaScript
+
 document
   .getElementsByClassName("breakfast")[0]
   .addEventListener("click", breakfast);
 
+// --------------------TYPESCRIPT--------------------
+// function breakfast() {
+//   if (window.matchMedia("(max-width: 481px)").matches) {
+//     (<HTMLElement>document.querySelector(".first-section > section")).style.height = "320px";
+//   } else {
+//     (<HTMLElement>document.querySelector(".first-section > section")).style.height = "460px";
+//   }
 function breakfast() {
   if (window.matchMedia("(max-width: 481px)").matches) {
     document.querySelector(".first-section > section").style.height = "320px";
@@ -23,6 +34,13 @@ function breakfast() {
 
 document.getElementsByClassName("lunch")[0].addEventListener("click", lunch);
 
+// --------------------TYPESCRIPT--------------------
+// function lunch() {
+//   if (window.matchMedia("(max-width: 481px)").matches) {
+//     (<HTMLElement>document.querySelector(".first-section > section")).style.height = "320px";
+//   } else {
+//     (<HTMLElement>document.querySelector(".first-section > section")).style.height = "460px";
+//   }
 function lunch() {
   if (window.matchMedia("(max-width: 481px)").matches) {
     document.querySelector(".first-section > section").style.height = "320px";
@@ -44,12 +62,28 @@ function lunch() {
 
 document.getElementsByClassName("dinner")[0].addEventListener("click", dinner);
 
+// --------------------TYPESCRIPT--------------------
+// function dinner() {
+//   if (window.matchMedia("(max-width: 481px)").matches) {
+//     (<HTMLElement>document.querySelector(".first-section > section")).style.height = "320px";
+//   } else {
+//     (<HTMLElement>document.querySelector(".first-section > section")).style.height = "460px";
+//   }
+
 function dinner() {
   if (window.matchMedia("(max-width: 481px)").matches) {
     document.querySelector(".first-section > section").style.height = "320px";
   } else {
     document.querySelector(".first-section > section").style.height = "460px";
   }
+
+  //   --------------------TYPESCRIPT--------------------
+  // function desserts() {
+  //   if (window.matchMedia("(max-width: 481px)").matches) {
+  //     (<HTMLElement>document.querySelector(".first-section > section")).style.height = "320px";
+  //   } else {
+  //     (<HTMLElement>document.querySelector(".first-section > section")).style.height = "460px";
+  //   }
 
   document.querySelector(".bottom_img_section").style.display = "none";
   document.querySelector("#food-img1").style.backgroundImage =
@@ -67,6 +101,13 @@ document
   .getElementsByClassName("desserts")[0]
   .addEventListener("click", desserts);
 
+//   --------------------TYPESCRIPT--------------------
+// function specials() {
+//   if (window.matchMedia("(max-width: 481px)").matches) {
+//     (<HTMLElement>document.querySelector(".first-section > section")).style.height = "320px";
+//   } else {
+//     (<HTMLElement>document.querySelector(".first-section > section")).style.height = "460px";
+//   }
 function desserts() {
   if (window.matchMedia("(max-width: 481px)").matches) {
     document.querySelector(".first-section > section").style.height = "320px";

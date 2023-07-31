@@ -322,6 +322,11 @@ body {
     padding-top: 10%;
 }
 
+.details > a {
+    color: orange;
+    text-decoration: none;
+}
+
 .weekends,
 .fourth_section>section>h4 {
     margin-bottom: 0;
